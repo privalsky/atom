@@ -11,7 +11,7 @@ public class Bar implements Collider{
 		
 		topLeft = new Point(Math.min(point1.getX(), point2.getX()),Math.max(point1.getY(), point2.getY()));
 		width = Math.abs(point1.getX() - point2.getX());
-        height = Math.abs(point2.getY() - point2.getY());
+        height = Math.abs(point1.getY() - point2.getY());
 	}
 		
 	
